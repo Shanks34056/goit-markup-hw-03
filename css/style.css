@@ -20,13 +20,11 @@ img {
     height: auto;
 }
 
-.container{
+.container {
     max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
+    padding: 0 15px;
+    margin: 0 auto;
+  }
 
 :root {
     --main-text-color: #434455;
@@ -179,10 +177,9 @@ a {
 /* ----------HERO---------- */
 
 /* ----------FEATURES---------- */
-.features {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+.feature {
+    padding: 120px 0;
+    }
 
 .features .container {
 }
@@ -209,6 +206,7 @@ a {
 .features-item {
 width: calc((100% - 72px) / 4);
 }
+
 .features-subtitle {
     margin-bottom: 8px;
     font-weight: 500;
