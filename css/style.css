@@ -22,8 +22,7 @@ img {
 
 .container{
     max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px 0 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -235,8 +234,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .container{
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 0 32px;
 }
 
 .team-title {
